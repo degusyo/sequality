@@ -7,7 +7,7 @@ public class CalculateTest {
   @Test
   public void testAppReternHelloWorld() {
     App classUnderTest = new App();
-    assertEquals("Hello World!", classUnderTest.getGreeting());
+    assertEquals("Hello World", classUnderTest.getGreeting());
   }
   public void testSum(){
     Calculate calculate = new Calculate();
